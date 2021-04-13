@@ -1,12 +1,12 @@
 type_of_spending = ["Car","games"]
 temp = [60,45]
 percent = 100
-gay = ""
+temp = ""
 
 while percent > 0 :
-    gay += ("\n"+str(percent) + "|")
+    temp += ("\n"+str(percent) + "|")
     percent -= 10
-print(gay)
+print(temp)
     
 
 for i in temp :
@@ -21,7 +21,7 @@ for i in temp :
         x += ("\n"+str(percent)+"|  " + tick)
         percent -=10
     y = ("\n"+"o")
-print(x+gay)
+print(x+temp)
         
             
         
